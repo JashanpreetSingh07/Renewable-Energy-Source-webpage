@@ -1,0 +1,338 @@
+.nav {
+    list-style-type: none;
+    width: 50% ;
+  margin: 0 25% 0 25%;
+  padding: 0 0 0 0;
+  
+  background-color: #e4eff9;
+ 
+  height: auto;
+  overflow: auto;
+
+}
+.nav a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: rgb(17, 141, 203);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .nav a:hover:not(.justline) {
+    background-color: #616161;
+    color: white;
+  }
+
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(2, 142, 211);
+}
+.intro {
+    color: rgb(2, 142, 211);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0 ;
+    font-size: 30px;
+}
+
+hr{
+    border-top: 2px solid rgb(2, 142, 211);
+  }
+
+.sec1 {
+    background-image: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.home1 {
+    background-image: url("https://media.istockphoto.com/id/1139678803/vector/horizontal-vector-illustration-of-an-empty-sky-blue-coloured-grungy-textured-background.jpg?s=612x612&w=0&k=20&c=tFTrwphz8pXtrmJGrEFBAnk9anQmRPHp3C8a3kQql7M=");
+   
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+}
+.introcontent {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0 ;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px ;
+
+}
+.sec1con {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: auto ;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    
+}
+.container1 {
+    width: 105vmin;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+    border: 20px solid rgba(144, 191, 212, 0.34);
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+    margin-bottom: 90px;
+
+
+}
+
+.sec1 .img1 {
+    width: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+
+}
+
+
+.sec1 .img1 img {
+    width: 100%;
+}
+
+
+.sec1title {
+    
+    text-align: center;
+    font-size: 48px;
+	line-height: 40px;
+    padding-top: 25px;
+	margin: 15px 0 .6em 0;
+	font-weight: normal;
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	position: relative;
+	color: rgb(9, 121, 177);
+}
+.f {
+    color: rgb(9, 120, 175);
+    font-size: 45px;
+}
+.sec1text {
+    display: grid;
+}
+
+.sec1text .item1 {
+    grid-column-start: 1 ;
+}
+.sec1text .item2 {
+    grid-column-start: 2 ;
+}
+.sec1text h4 {
+    font-size: 34px;
+    margin: 0 5px 0 5px;
+}
+.sec1text p, .sec1text li {
+    font-size: 19px;
+    margin: 0 10px 0 10px;
+}
+.sec1text img {
+    margin: 10px;
+}
+.item2 img, .item3 img, .item6 img , .item7 img {
+    
+    border: 7px solid rgba(255, 255, 255, 0.386);
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+
+.ETintro {
+    color: rgb(8, 85, 123);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0 ;
+    font-size: 25px;
+}
+.s {
+    color: rgb(8, 85, 123);
+    font-size: 30px;
+}
+div.polaroid {
+    
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display:inline-block;
+    
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 75px;
+    margin-right: auto;
+    
+    
+}
+#sec6, #sec7{
+    background-image: url("https://media.istockphoto.com/id/1139678803/vector/horizontal-vector-illustration-of-an-empty-sky-blue-coloured-grungy-textured-background.jpg?s=612x612&w=0&k=20&c=tFTrwphz8pXtrmJGrEFBAnk9anQmRPHp3C8a3kQql7M=");
+   
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+ .sec2text {
+    display: grid;
+ }
+.sec2text h4 {
+    font-size: 26px;
+    margin: 0 30px 0 30px;
+}
+.sec2text p, .sec2text li {
+    font-size: 18px;
+    margin: 0 25px 0 50px;
+}
+.container03 {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.container03 img {
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 0, 0, 0.411);
+}
+
+.ending {
+    background-image: url("https://media.istockphoto.com/id/1139678803/vector/horizontal-vector-illustration-of-an-empty-sky-blue-coloured-grungy-textured-background.jpg?s=612x612&w=0&k=20&c=tFTrwphz8pXtrmJGrEFBAnk9anQmRPHp3C8a3kQql7M=");
+   
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.ending p {
+    font-size: 22px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.third {
+    font-size: 34px;
+    color: rgb(8, 85, 123);
+    line-height: 0;
+    
+    
+}
+
+form {
+    
+    margin:0 30px 20px 30px;
+    padding-bottom: 20px;
+}
+.endcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.e2 img, .e3 img{
+    border-radius: 10px;
+    margin-right: 30px;
+    border: 2px solid rgba(110, 36, 214, 0.546);
+}
+.home1 .logo  {
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+.starter {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(137, 210, 241, 0.726);
+    margin: 10px 0 50px 0;
+    border-radius: 8px;
+    
+}
+.logost {
+    margin-left: 30px;
+}
+.home1 > .starter > .logostf > a > img{
+    
+    
+    margin-top: 15px;
+    
+}
+.home1 .logo img:hover {
+    animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  .buylink {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    color:orangered;
+  }
