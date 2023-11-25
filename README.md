@@ -16,3 +16,5 @@ Data and Statistics: Access up-to-date data and statistics on renewable and non-
 Future Plans: Explore the ambitious global and regional plans for renewable energy adoption. From commitments to carbon neutrality to technological advancements, witness the unfolding strategies shaping the future of clean energy on a grand scale.
 
 Embark on a journey toward a sustainable, clean energy future with our in-depth insights and engaging content. Join us in exploring the pivotal role of renewable energy in building a more resilient, low-carbon world."
+
+In order to run webpage, run the home.html which is styled using styles.css
